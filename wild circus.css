@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'tizaregular';
+    src: url('fonts/tiza/tiza-webfont.eot');
+    src: url('fonts/tiza/tiza-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tiza/tiza-webfont.woff') format('woff'),
+         url('fonts/tiza/tiza-webfont.ttf') format('truetype'),
+         url('fonts/tiza/tiza-webfont.svg#tizaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'blokletters_balpenbalpen';
+    src: url('fonts/blok/Blokletters-Balpen-webfont.eot');
+    src: url('fonts/blok/Blokletters-Balpen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/blok/Blokletters-Balpen-webfont.woff') format('woff'),
+         url('fonts/blok/Blokletters-Balpen-webfont.ttf') format('truetype'),
+         url('fonts/blok/Blokletters-Balpen-webfont.svg#blokletters_balpenbalpen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	background:url("picture/fond2.jpg") fixed no-repeat;
+	background-size:cover;
+	width: 1280px;
+	height: 720px;
+	margin:auto;
+
+}
+
+.titre
+	{
+		font-size:100px;
+		color:rgb(251,168,88);
+		text-align: center;
+		position:center;
+		text-shadow:5px 5px 10px black;
+		padding:10px;
+	}
+header
+	{
+		width: 100%;
+		margin: 10px auto;
+		background-color: rgb(88,196,184);
+		font-family:"tizaregular";
+		border:8px solid rgb(251,168,88);
+		border-radius: 10px;
+		box-shadow: 5px 5px 10px black;
+		word-wrap: break-word; 
+
+	}
+
+nav
+	{
+		float:right;
+		margin-right:50px;
+		text-align: center;
+		word-wrap: break-word;
+
+	}
+
+ul li
+	{
+		width:95%;
+		margin-bottom:3px;
+		padding:2px 2px 2px 2px;
+		color: rgb(251,168,88);
+		background-color :rgb(88,196,184);
+		font-family:"tizaregular";
+		border:3px solid rgb(251,168,88);
+		border-radius:5px;
+		box-shadow:3px 3px 5px black;
+		list-style-type: none;
+		word-wrap: break-word;
+	}
+a
+	{
+		color:rgb(251,168,88);
+		text-shadow: 3px 3px 5px black;
+		text-decoration:none;
+	}
+
+a:hover
+	{
+		color:black;
+	}
+
+.intro
+	{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		font-size:15px;
+		font-style: bold; 
+		font-family: 'blokletters_balpenbalpen';
+		text-shadow:4px 4px 8px black;
+	}
+
+.photo
+	{
+		float:left;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:space-around;
+	}
+
+.enter
+	{
+		
+		width:350px;
+		height:300px;	
+		margin:10px 10px 10px 50px;
+	}
+
+.circus
+	{
+		width:350px;
+		height:250px;
+		border-radius: 25px;
+		box-shadow: 5px 5px 8px black;
+		margin:10px 10px 10px 50px;
+	}	
+
+.equilibre
+	{
+		
+		width:350px;
+		height:200px;
+		border-radius: 25px;
+		box-shadow: 5px 5px 8px black;
+		margin:10px 10px 10px 50px;
+		
+	}
+
+.prés
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+
+.artiste1
+	{	
+		width: 60%;
+		height:30%;
+		text-align:center;
+		font-family:'blokletters_balpenbalpen';
+		text-shadow: 1px 1px 3px black;
+		border: 5px solid rgb(251,168,88);
+		border-radius: 10px;
+		background-color: rgb(88,196,184);
+		box-shadow: 3px 3px 5px black;
+		word-wrap: break-word;
+		padding:10px 10px 10px 10px;
+		margin:20px;
+	}
+
+.artiste2
+	{
+		width: 70%;
+		height:30%;
+		text-align:center;
+		font-family:'blokletters_balpenbalpen';
+		text-shadow: 1px 1px 3px black;
+		border: 5px solid rgb(251,168,88);
+		border-radius: 10px;
+		background-color: rgb(88,196,184);
+		box-shadow: 3px 3px 5px black;
+		word-wrap: break-word;
+		padding:10px 10px 10px 10px;
+		margin:20px;
+
+	}	
+
+.artiste3
+	{
+		width: 60%;
+		height:30%;
+		text-align:center;
+		font-family:'blokletters_balpenbalpen';
+		text-shadow: 1px 1px 3px black;
+		border: 5px solid rgb(251,168,88);
+		border-radius: 10px;
+		background-color: rgb(88,196,184);
+		box-shadow: 3px 3px 5px black;
+		word-wrap: break-word;
+		padding:10px 10px 10px 10px;
+		margin:20px;
+	}
+
+.artiste4
+	{
+		width: 70%;
+		height:30%;
+		text-align:center;
+		font-family:'blokletters_balpenbalpen';
+		text-shadow: 1px 1px 3px black;
+		border: 5px solid rgb(251,168,88);
+		border-radius: 10px;
+		background-color: rgb(88,196,184);
+		box-shadow: 3px 3px 5px black;
+		word-wrap: break-word;
+		padding:10px 10px 10px 10px;
+		margin:20px;
+	}
+
+.artiste5
+	{
+		width: 60%;
+		height:30%;
+		text-align:center;
+		font-family:'blokletters_balpenbalpen';
+		text-shadow: 1px 1px 3px black;
+		border: 5px solid rgb(251,168,88);
+		border-radius: 10px;
+		background-color: rgb(88,196,184);
+		box-shadow: 3px 3px 5px black;
+		word-wrap: break-word;
+		padding:10px 10px 10px 10px;
+		margin:20px;
+	}
+
+
+
+.artistes
+	{
+		float:right;
+		width: 300px;
+		height: 300px;
+	}
+
+.encore
+	{
+		font-style:"blokletters_balpenbalpen";
+		font-size:40px;
+		text-align: right;
+		text-shadow: 3px 3px 5px;
+		margin-right:100px;
+	}
+
+footer
+
+	{
+		display:flex;
+		justify-content:space-around;
+		width: 100%;
+		background-color: rgb(88,196,184);
+		font-size: 14px;
+		font-family:'blokletters_balpenbalpen';
+		border:8px solid rgb(251,168,88);
+		border-radius: 10px;
+		box-shadow: 5px 5px 10px black; 
+		word-wrap: break-word;
+		padding:5px 5px 5px 5px;
+	}
+
+.facebook
+
+	{
+		width:20px;
+		height:20px;
+	}
+
+.twitter
+
+	{
+		width:20px;
+		height:20px;
+	}
+	
